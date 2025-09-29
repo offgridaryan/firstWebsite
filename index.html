@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/script.js" defer></script>
+
+        <audio id="bgMusic" loop>
+            <source src="audio/finalSceneStrangerThingsS4.mp3" type="audio/mpeg" />
+        </audio>
+    </head>
+    <body>
+        <div class="header">
+            <video autoplay muted loop preload="auto" poster="images/aquatic-life.png" id="headerVideo">
+                <source src="videos/aquatic-life.mp4" type="video/mp4" />
+            </video>
+            <div class="overlayHeader">Aryan Sharma</div>
+        </div>
+        <video autoplay muted loop preload="auto" poster="images/bytes.png" id="bgVideo">
+            <source src="videos/green-bytes.mp4" type="video/mp4" />
+        </video>
+
+        <main class="main-content">
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>Aspiring Game Designer with strong foundational skills in Unity and 3D design, currently 
+pursuing B.Sc. in Computer Science. Passionate about building interactive experiences 
+through code and creativity. Seeking opportunities to grow in the game development and 
+digital design space.</p>
+            </section>
+
+            <section class="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li class="skill-item">Game Engines: Unity</li>
+                    <li class="skill-item">Programming Languages: C#, Python, js, HTML, CSS, C</li>
+                    <li class="skill-item">Design Tools: Blender (3D modeling & basic animation), Unity Engine</li>
+                    <li class="skill-item">AI & Prompting Tools: ChatGPT, GitHub Copilot, Grok3, Claude, Blackbox</li>
+                    <li class="skill-item">Version Control: GitHub, Unity Version Control</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <ul>
+                        <li class="project-item">Tanks! (Unity Learn): A player-vs-AI tank combat game built using Unity tutorials.</li>
+                        <li class="project-item">Roll-a-Ball (Unity Learn): Classic 3D movement and physics-based collection game.</li>
+                        <li class="project-item">Flappy Bird Clone (Unity): Reimagined the classic arcade game using Unity physics.</li>
+                        <li class="project-item">John Lemon’s Haunted Jaunt (Unity Learn): Intro 3D game project focused on level layout and player mechanics.</li>
+                        <li class="project-item">Ruby’s Adventure (Unity Learn - 2D): A 2D beginner adventure game involving sprite animation, interactions, and platformer logic.</li>
+                        <li class="project-item">3D Donuts (Blender): Lighting, texturing, and rendering following Blender Guru’s classic tutorial.</li>
+                        <li class="project-item">Sword in the Stone (Blender – CG Fast Track): Created a cinematic animation scene with environment setup, camera transitions, and keyframe animation.</li>
+                    </ul>
+                </div>
+                    <!-- Add more projects as needed -->
+            </section>
+
+            <section class="profiles">
+                <h2>Profiles</h2>
+                    <ul class="profile-list">
+                        <li><a class="link" href="https://offgridaryan.itch.io" target="_blank">Itch.io</a></li>
+                        <li><a class="link" href="https://bit.ly/off-grid-aryan" target="_blank">Unity Play</a></li>
+                        <li><a class="link" href="https://www.youtube.com/@offgridaryan" target="_blank">YouTube</a></li>
+                    </ul>
+            </section>
+        </main>
+
+        <aside>
+            <button id="toggleMusicBtn" onclick="toggleMusic()">Toggle Music</button>
+        </aside>
+    </body>
+
+    <div class="footer">
+        <video autoplay muted loop preload="auto" poster="images/aquatic-life.png" id="footerVideo">
+                <source src="videos/aquatic-life.mp4" type="video/mp4" />
+        </video>
+        <div class="overlayFooter">&copy; 2025 All Copyrights Reserved</div>
+    </a>
+</html>
