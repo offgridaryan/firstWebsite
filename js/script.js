@@ -11,6 +11,7 @@ function toggleMusic() {
     }
 }
 
+// AI code starts from here
 // mobile optimization
 
 // Utility: apply hover-like styles on touch
