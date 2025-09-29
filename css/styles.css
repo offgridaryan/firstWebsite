@@ -4,9 +4,10 @@
 /* Pacifico font */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
 body{
     margin:0 auto;
-    padding:0 50px 0 20px;
+    padding:0 20px;
     background:linear-gradient(to bottom, #0a1f3d, #000000);
     background-size: cover;
     background-attachment: fixed;
