@@ -13,6 +13,8 @@ body{
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
     font-family:'JetBrains Mono';
     font-size:clamp(10px, 5vw, 20px);
+
+    overflow-x:hidden;
 }
 
 .header{
@@ -35,11 +37,10 @@ body{
     float:none;
     position:absolute;
     top:-10%;
-    left:50%;
-    width:100vw;
+    left:-5%;
+    width:calc(100vw + 10%);
     height:20vh;
     z-index:-1;
-    transform:translateX(-49%);
     object-fit:cover;
     border-radius: 0 0 100% 100%;
     box-shadow: 
@@ -54,7 +55,7 @@ body{
     position:absolute;
     top:20%;
     left:50%;
-    width:100vw;
+    width:calc(100vw + 10%);
     height:20vh;
     z-index:-1;
     transform:translateX(-49%);
@@ -118,7 +119,7 @@ body{
 }
 
 
-#toggleMusicBtn:hover{
+#toggleMusicBtn:hover, #toggleMusicBtn:focus ,#toggleMusicBtn:active {
     background:rgba(0, 0, 0, 0.1);
 }
 
@@ -140,7 +141,7 @@ body{
     transition:background 0.3s;
 }
 
-.about-me:hover {
+.about-me:hover, .about-me:focus, .about-me:active {
     background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0.1));
 }
 
@@ -166,7 +167,7 @@ body{
     border-radius: 20px 0 20px 0;
 }
 
-.project-item:hover{
+.project-item:hover,.project-item:focus, .project-item:active {
     background:rgba(255,255,255,0.1);
 }
 
@@ -187,7 +188,7 @@ body{
     border-radius: 20px 0 20px 0;
 }
 
-.skill-item:hover{
+.skill-item:hover, .skill-item:focus, .skill-item:active {
     background:rgba(255,255,255,0.1);
 }
 
@@ -199,7 +200,7 @@ body{
     transition:background 0.3s;
 }
 
-.profiles:hover {
+.profiles:hover, .profiles:focus, .profiles:active {
     background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0.1));
 }
 
@@ -209,7 +210,7 @@ body{
     transition:color 0.3s;
 }
 
-.link:hover{
+.link:hover, .link:focus, .link:active {
     color:#00ff00;
     text-decoration:underline;
 }
