@@ -5,7 +5,7 @@
 
 body{
     margin:0 auto;
-    padding:0 0 0 20px;
+    padding:0 50px 0 20px;
     background:linear-gradient(to bottom, #0a1f3d, #000000);
     background-size: cover;
     background-attachment: fixed;
@@ -71,6 +71,7 @@ body{
   position: absolute;
   top: 50%;                  /* center vertically relative to video */
   left: 50%;
+  padding-bottom:20px;
   transform: translate(-50%, -50%);  /* center exactly */
   font-family: 'Pacifico';
   font-size: clamp(24px, 8vw, 50px);
@@ -85,6 +86,7 @@ body{
   position: absolute;
   top: 60%;                  /* center vertically relative to video */
   left: 50%;
+  padding-top:20px;
   transform: translate(-50%, -50%);  /* center exactly */
   font-family: 'Pacifico';
   font-size: clamp(24px, 3vw, 50px);
