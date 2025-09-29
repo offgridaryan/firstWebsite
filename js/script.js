@@ -63,3 +63,14 @@ enableTouchHover('.link', {
 enableTouchHover('#toggleMusicBtn', {
     background: 'rgba(0,0,0,0.1)'
 });
+
+// initial viewport scale
+document.addEventListener('DOMContentLoaded', () => {
+    let viewport = document.querySelector('meta[name="viewport"]');
+    if (!viewport) {
+        viewport = document.createElement('meta');
+        viewport.name = 'viewport';
+        document.head.appendChild(viewport);
+    }
+    viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
+});
